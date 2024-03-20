@@ -11,9 +11,12 @@ def training_pipeline(data_path: str):
 
     # Clean data
     clean_Data(df)
+    bh
 
     # Train model
     train_model(df)
 
     # Evaluate model
     evaluate_model(df)
+
+    
